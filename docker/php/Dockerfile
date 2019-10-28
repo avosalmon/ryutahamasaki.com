@@ -13,7 +13,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 # APP_ROOT, APP_USER
 # ------------------------------------------------------------------------------
 
-ENV APP_ROOT=/var/www \
+ENV APP_ROOT=/var/www/html \
     APP_USER=www-data
 
 RUN set -ex \
@@ -75,8 +75,7 @@ RUN set -ex \
     gd \
     zip \
     xml \
-    redis \
-  && apk del .php-deps
+    redis
 
 ENV XDEBUG_VERSION=2.7.0 \
     XDEBUG_REMOTE_ENABLE=0 \
