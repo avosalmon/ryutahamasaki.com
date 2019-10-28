@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'database_connection' => env('WINK_DB_CONNECTION', 'wink'),
+    'database_connection' => env('DB_CONNECTION', 'wink'),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'storage_disk' => env('WINK_STORAGE_DISK', 'local'),
+    'storage_disk' => env('FILESYSTEM_DRIVER', 'local'),
 
     'storage_path' => env('WINK_STORAGE_PATH', 'public/wink/images'),
 
