@@ -34,6 +34,17 @@
         <main class="px-4 py-10 mx-auto w-full md:w-2/3">
             @yield('content')
         </main>
+        <div class="text-gray-700 px-4 pb-20 mx-auto w-full md:w-2/3">
+            <div class="text-center mb-4">
+                <img src="{{ mix('image/avatar.jpg') }}" alt="avatar" class="inline rounded-full h-32">
+            </div>
+            <h2 class="text-4xl font-semibold text-center mb-6">About Me</h2>
+            <p class="text-xl leading-relaxed">
+                I am a full stack engineer from Japan and currently based in Singapore.<br>
+                Especially for these 5 years, I've been creating e-commerce web applications using Laravel, Angular and Vue.js.<br>
+                Making a clean, maintainable and scalable software is one of my biggest passions.
+            </p>
+        </div>
         <footer class="flex flex-col items-center justify-between text-gray-500 px-4 py-4 border-t border-gray-300 md:flex-row md:px-32">
             <div class="mb-4 md:mb-0">&copy; Ryuta Hamasaki</div>
             <div class="flex items-center justify-between">
