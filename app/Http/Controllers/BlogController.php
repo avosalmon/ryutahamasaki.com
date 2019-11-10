@@ -12,7 +12,7 @@ class BlogController extends Controller
         $posts = WinkPost::with('tags')
             ->live()
             ->orderBy('publish_date', 'DESC')
-            ->simplePaginate(10);
+            ->paginate(10);
 
         return view('blog.index', [
             'posts' => $posts
