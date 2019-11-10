@@ -3,7 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ryuta Hamasaki</title>
+        @hasSection('title'))
+            <title>@yield('title') - Ryuta Hamasaki</title>
+        @else
+            <title>Ryuta Hamasaki</title>
+        @endif
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>
     <body>
