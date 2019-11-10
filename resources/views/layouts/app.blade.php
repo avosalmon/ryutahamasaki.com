@@ -31,10 +31,10 @@
                 </div>
             </nav>
         </header>
-        <div>
+        <main class="px-4 py-10 mx-auto w-full md:w-2/3">
             @yield('content')
-        </div>
-        <footer class="flex flex-col items-center justify-between text-gray-500 px-4 py-4 border-t border-gray-200 md:flex-row md:px-32">
+        </main>
+        <footer class="flex flex-col items-center justify-between text-gray-500 px-4 py-4 border-t border-gray-300 md:flex-row md:px-32">
             <div class="mb-4 md:mb-0">&copy; Ryuta Hamasaki</div>
             <div class="flex items-center justify-between">
                 <a href="https://github.com/avosalmon/" target="_blank" class="mx-2 hover:text-teal-400 md:mx-4">
