@@ -10,7 +10,7 @@
         @endif
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>
-    <body>
+    <body class="text-gray-700">
         <header>
             <nav class="flex flex-col items-center justify-between bg-black text-white px-4 py-4 md:flex-row md:px-32">
                 <div class="text-2xl font-medium font-mono mb-4 md:mb-0">
@@ -38,7 +38,7 @@
         <main class="px-4 py-10 mx-auto w-full md:w-2/3">
             @yield('content')
         </main>
-        <div class="text-gray-700 px-4 pb-20 mx-auto w-full md:w-2/3">
+        <div class="px-4 pb-20 mx-auto w-full md:w-2/3">
             <div class="text-center mb-4">
                 <img src="{{ mix('image/avatar.jpg') }}" alt="avatar" class="inline rounded-full h-32">
             </div>
