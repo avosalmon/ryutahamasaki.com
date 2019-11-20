@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'BlogController@index');
+Route::get('/posts/{slug}', 'BlogController@show');

@@ -18,4 +18,15 @@ class BlogController extends Controller
             'posts' => $posts
         ]);
     }
+
+    public function show(string $slug)
+    {
+        $post = WinkPost::with('tags')
+            ->where('slug', $slug)
+            ->firstOrFail();
+
+        return view('blog.show', [
+            'post' => $post
+        ]);
+    }
 }
