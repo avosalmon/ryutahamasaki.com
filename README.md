@@ -4,7 +4,8 @@ This repo contains the source code of my Laravel powered blog at https://avosalm
 ## Roadmap
 - [x] Setup local environment with Docker
 - [x] Add admin CMS with [Wink](https://wink.themsaid.com/)
-- [ ] Implement a theme
+- [ ] Implement a theme - In progress
+- [ ] Remove unused CSS by [PurgeCSS](https://www.purgecss.com/)
 - [ ] Add sitemap
 - [ ] Add to Google Search Console
 - [ ] Add GA or GTM
