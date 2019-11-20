@@ -8,7 +8,7 @@
                 <div>
                     <h1 class="text-2xl font-semibold leading-tight mb-2">{{ $post->title }}</h1>
                     <p class="text-gray-600 mb-4">{{ $post->publish_date->format('M d, Y') }}</p>
-                    <p class="hidden md:block">{{ $post->excerpt }}</p>
+                    <p class="leading-relaxed hidden md:block">{{ $post->excerpt }}</p>
                 </div>
             </a>
         </article>
