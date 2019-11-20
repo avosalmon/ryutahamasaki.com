@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        @hasSection('title'))
+        @hasSection('title')
             <title>@yield('title') - Ryuta Hamasaki</title>
         @else
             <title>Ryuta Hamasaki</title>
