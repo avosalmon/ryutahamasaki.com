@@ -3,3 +3,65 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.post-body > p {
+  margin-bottom: 1.5rem;
+}
+
+.post-body blockquote {
+  border-left: 4px solid #cbd5e0;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-body h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-body h3 {
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-body a {
+  text-decoration: underline;
+}
+
+.post-body img {
+  margin-bottom: 1.5rem;
+}
+
+.post-body code {
+  padding: .25rem;
+  background-color: #edf2f7;
+  font-size: .8em;
+  color: #d53f8c;
+}
+
+.post-body pre {
+  background: hsla(0,0%,93.3%,.35);
+  border: 2px solid rgba(0,0,0,.05);
+  color: #000;
+  overflow-x: auto;
+  padding: .5em;
+  margin-bottom: 1.5rem;
+}
+
+.post-body hr {
+  border: none;
+  color: #1a202c;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.post-body hr:before {
+  content: '...';
+}
