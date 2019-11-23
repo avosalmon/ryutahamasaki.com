@@ -19,6 +19,7 @@
         <meta name="twitter:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')">
         <meta name="twitter:image" content="@yield('featured-image', 'https://avatars2.githubusercontent.com/u/7438395')">
 
+        <link rel="icon" type="image/jpeg" href="{{ mix('image/avatar.jpg') }}">
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/github-gist.min.css">
     </head>
