@@ -1,5 +1,5 @@
-# The source code of https://avosalmon.dev
-This repo contains the source code of my Laravel powered blog at https://avosalmon.dev (Coming Soon).
+# The source code of https://ryutahamasaki.com
+This repo contains the source code of my Laravel powered blog at https://ryutahamasaki.com.
 
 ## Roadmap
 - [x] Setup local environment with Docker
