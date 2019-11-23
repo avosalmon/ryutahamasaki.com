@@ -8,6 +8,7 @@
         @else
             <title>Ryuta Hamasaki</title>
         @endif
+        <meta name="description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')"/>
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/github-gist.min.css">
     </head>

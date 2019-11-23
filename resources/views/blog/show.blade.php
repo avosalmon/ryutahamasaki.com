@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('title', $post->title)
+@section('description', substr($post->excerpt), 0, 155))
 
 @section('content')
     <article>
