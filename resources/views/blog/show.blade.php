@@ -6,7 +6,7 @@
 
 @section('content')
     <article>
-        <a href="/posts/{{ $post->slug }}">
+        <a href="/posts/{{ $post->slug }}/">
             <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-4">{{ $post->title }}</h1>
         </a>
         <div class="mb-10">
