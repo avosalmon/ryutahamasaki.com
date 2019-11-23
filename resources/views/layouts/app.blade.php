@@ -8,7 +8,7 @@
 
         <meta property="og:title" content="@yield('title', config('app.name'))" />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="{{ url()->full() }}" />
+        <meta property="og:url" content="{{ config('app.url').'/'.request()->path().'/' }}" />
         <meta property="og:image" content="@yield('featured-image', 'https://avatars2.githubusercontent.com/u/7438395')" />
         <meta property="og:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')" />
 
