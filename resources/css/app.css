@@ -33,6 +33,15 @@
   text-decoration: underline;
 }
 
+.post-body ul {
+  padding-left: 1.25rem;
+}
+
+.post-body ul > li {
+  list-style-type: disc;
+  margin-bottom: .5rem;
+}
+
 .post-body .embedded_image {
   margin-bottom: 3rem;
 }
