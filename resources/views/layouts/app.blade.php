@@ -48,10 +48,10 @@
                 </div>
             </nav>
         </header>
-        <main class="px-4 py-10 mx-auto w-full md:w-2/3">
+        <main class="px-4 py-10 mx-auto w-full md:w-2/3 lg:w-3/5">
             @yield('content')
         </main>
-        <div class="px-4 pb-20 mx-auto w-full md:w-2/3">
+        <div class="px-4 pb-20 mx-auto w-full md:w-2/3 lg:w-3/5">
             <div class="text-center mb-4">
                 <img src="{{ mix('image/avatar.jpg') }}" alt="avatar" class="inline rounded-full h-32">
             </div>
