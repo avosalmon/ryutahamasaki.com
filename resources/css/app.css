@@ -1,10 +1,9 @@
+/* purgecss start ignore */
 @tailwind base;
-
 @tailwind components;
 
-@tailwind utilities;
-
-.post-body > p {
+/* Need to ignore from PurgeCSS because these templates are stored in DB */
+.post-body p {
   margin-bottom: 1.5rem;
 }
 
@@ -65,3 +64,6 @@
 .post-body hr:before {
   content: '...';
 }
+/* purgecss end ignore */
+
+@tailwind utilities;

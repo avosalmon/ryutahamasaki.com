@@ -1,21 +1,19 @@
 const mix = require('laravel-mix');
+const purgecss = require('@fullhuman/postcss-purgecss')({
+    content: [
+        './resources/views/**/*.blade.php'
+    ],
 
-/*
- |--------------------------------------------------------------------------
- | Mix Asset Management
- |--------------------------------------------------------------------------
- |
- | Mix provides a clean, fluent API for defining some Webpack build steps
- | for your Laravel application. By default, we are compiling the Sass
- | file for the application as well as bundling up all the JS files.
- |
- */
+    // @see https://tailwindcss.com/docs/controlling-file-size/#setting-up-purgecss
+    defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+});
 
 mix.js('resources/js/app.js', 'public/js');
 
 mix.postCss('resources/css/app.css', 'public/css', [
     require('tailwindcss'),
-    require('autoprefixer')
+    require('autoprefixer'),
+    ...mix.inProduction() ? [purgecss] : []
 ]);
 
 mix.copy('resources/image/avatar.jpg', 'public/image/avatar.jpg');
