@@ -9,8 +9,15 @@
         <meta property="og:title" content="@yield('title', config('app.name'))" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="{{ url()->full() }}" />
-        <meta property="og:image" content="@yield('featured-image', '')" />
+        <meta property="og:image" content="@yield('featured-image', 'https://avatars2.githubusercontent.com/u/7438395')" />
         <meta property="og:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')" />
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@avosalmon"/>
+        <meta name="twitter:creator" content="@avosalmon"/>
+        <meta name="twitter:title" content="@yield('title', config('app.name'))">
+        <meta name="twitter:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')">
+        <meta name="twitter:image" content="@yield('featured-image', 'https://avatars2.githubusercontent.com/u/7438395')">
 
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/github-gist.min.css">
