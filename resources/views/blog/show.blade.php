@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
-@section('title', $post->title)
-@section('description', substr($post->excerpt), 0, 155))
+@section('title', $post->title . ' - ' . config('app.name'))
+@section('description', substr($post->excerpt, 0, 155))
+@section('featured-image', $post->featured_image)
 
 @section('content')
     <article>

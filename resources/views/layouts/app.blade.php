@@ -3,12 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        @hasSection('title')
-            <title>@yield('title') - Ryuta Hamasaki</title>
-        @else
-            <title>Ryuta Hamasaki</title>
-        @endif
+        <title>@yield('title', config('app.name'))</title>
         <meta name="description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')"/>
+
+        <meta property="og:title" content="@yield('title', config('app.name'))" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="{{ url()->full() }}" />
+        <meta property="og:image" content="@yield('featured-image', '')" />
+        <meta property="og:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')" />
+
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/github-gist.min.css">
     </head>
