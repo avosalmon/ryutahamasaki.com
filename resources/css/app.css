@@ -11,6 +11,7 @@
   border-left: 4px solid #cbd5e0;
   padding-left: 1rem;
   margin-bottom: 1.5rem;
+  font-style: italic;
 }
 
 .post-body h2 {
@@ -50,6 +51,21 @@
   font-size: 1rem;
   text-align: center;
   margin-top: .5rem;
+}
+
+.post-body .inline_html {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.post-body .inline_html iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .post-body code {
