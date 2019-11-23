@@ -15,7 +15,6 @@
                 <span class="bg-gray-300 rounded px-2 py-1 mr-1">{{ $tag->name }}</span>
             @endforeach
         </div>
-        <img class="object-cover mb-10" src="{{ $post->featured_image }}">
         <div class="post-body text-xl leading-relaxed">{!! $post->body !!}</div>
     </article>
 @endsection
