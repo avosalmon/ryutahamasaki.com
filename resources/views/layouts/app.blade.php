@@ -4,18 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@yield('title', config('app.name'))</title>
-        <meta name="description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')"/>
+        <meta name="description" content="@yield('description', 'Ryuta Hamasaki is a software engineer from Japan.')"/>
 
         <meta property="og:title" content="@yield('title', config('app.name'))" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="@yield('featured-image', 'https://d3kvywu94yn7wx.cloudfront.net/images/Ud4xfI62qK2Bden2vAXk8hWYS4BSjFXVJ79SOUZ1.jpeg')" />
-        <meta property="og:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')" />
+        <meta property="og:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer from Japan.')" />
 
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@avosalmon"/>
         <meta name="twitter:creator" content="@avosalmon"/>
         <meta name="twitter:title" content="@yield('title', config('app.name'))">
-        <meta name="twitter:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')">
+        <meta name="twitter:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer from Japan.')">
         <meta name="twitter:image" content="@yield('featured-image', 'https://d3kvywu94yn7wx.cloudfront.net/images/Ud4xfI62qK2Bden2vAXk8hWYS4BSjFXVJ79SOUZ1.jpeg')">
 
         <link rel="icon" type="image/jpeg" href="{{ mix('image/avatar.jpg') }}">
@@ -56,7 +56,7 @@
             </div>
             <h2 class="text-4xl font-semibold text-center mb-6">About Me</h2>
             <p class="text-xl leading-relaxed">
-                I am a full stack engineer from Japan and currently based in Singapore. Especially for these five years, I've been creating e-commerce web applications using Laravel, Angular and Vue.js. Making a clean, maintainable and scalable software is one of my biggest passions.
+                I am a software engineer from Japan and currently based in Singapore. Especially for these five years, I've been creating e-commerce web applications using Laravel, Angular and Vue.js. Making a clean, maintainable and scalable software is one of my biggest passions. Im my spare time, I play the bass or enjoy DIY.
             </p>
         </div>
         <footer class="flex flex-col items-center justify-between text-gray-500 px-4 py-4 border-t border-gray-300 md:flex-row md:px-32">
