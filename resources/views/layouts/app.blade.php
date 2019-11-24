@@ -8,7 +8,7 @@
 
         <meta property="og:title" content="@yield('title', config('app.name'))" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="@yield('featured-image', 'https://avatars2.githubusercontent.com/u/7438395')" />
+        <meta property="og:image" content="@yield('featured-image', 'https://d3kvywu94yn7wx.cloudfront.net/images/Ud4xfI62qK2Bden2vAXk8hWYS4BSjFXVJ79SOUZ1.jpeg')" />
         <meta property="og:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')" />
 
         <meta name="twitter:card" content="summary_large_image"/>
@@ -16,7 +16,7 @@
         <meta name="twitter:creator" content="@avosalmon"/>
         <meta name="twitter:title" content="@yield('title', config('app.name'))">
         <meta name="twitter:description" content="@yield('description', 'Ryuta Hamasaki is a software engineer.')">
-        <meta name="twitter:image" content="@yield('featured-image', 'https://avatars2.githubusercontent.com/u/7438395')">
+        <meta name="twitter:image" content="@yield('featured-image', 'https://d3kvywu94yn7wx.cloudfront.net/images/Ud4xfI62qK2Bden2vAXk8hWYS4BSjFXVJ79SOUZ1.jpeg')">
 
         <link rel="icon" type="image/jpeg" href="{{ mix('image/avatar.jpg') }}">
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
