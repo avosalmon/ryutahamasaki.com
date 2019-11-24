@@ -7,6 +7,6 @@ This repo contains the source code of my Laravel powered blog at https://ryutaha
 - [x] Implement a theme
 - [x] Remove unused CSS by [PurgeCSS](https://www.purgecss.com/)
 - [x] Export as a static site and deploy to Netlify with [Laravel Export](https://github.com/spatie/laravel-export)
-- [ ] Add to Google Search Console
+- [x] Add to Google Search Console
 - [ ] Add GA or GTM
 - [ ] Add sitemap
