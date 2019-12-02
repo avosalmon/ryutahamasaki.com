@@ -53,14 +53,20 @@
   margin-top: .5rem;
 }
 
-.post-body .inline_html {
+.post-body .inline_html .twitter {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.post-body .inline_html .youtube {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
   height: 0;
 }
 
-.post-body .inline_html iframe {
+.post-body .inline_html .youtube iframe {
   position: absolute;
   top: 0;
   left: 0;
