@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/github-gist.min.css">
     </head>
-    <body class="text-gray-700 antialiased">
+    <body class="text-gray-800 antialiased">
         <header>
             <nav class="flex flex-col items-center justify-between bg-black text-white px-4 py-4 md:flex-row md:px-32">
                 <div class="text-2xl font-medium font-mono mb-4 md:mb-0">
