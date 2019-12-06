@@ -34,4 +34,8 @@ return [
         'key' => env('UNSPLASH_ACCESS_KEY'),
     ],
 
+    'gtm' => [
+        'id' => env('GTM_ACCOUNT_ID'),
+    ],
+
 ];
