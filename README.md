@@ -1,5 +1,6 @@
 # The source code of https://ryutahamasaki.com
 This repo contains the source code of my Laravel powered blog at https://ryutahamasaki.com.
+It's exported as a static site and deployed to Netlify.
 
 ## Setup local environment
 Install dependencies.
@@ -48,7 +49,7 @@ If you want to upload images to S3 with cache-control header, add `CacheControl`
 Now you can access your site with http://localhost:8080.
 Admin panel is powered by [Wink](https://github.com/writingink/wink) and accessible with http://localhost:8080/wink.
 
-## Deploy your site to Netlify as a static site
+## Deploy to Netlify as a static site
 You can export the entire site as a static site using [spatie/laravel-export](https://github.com/spatie/laravel-export) package and deploy to Netlify. That's blazing fast and scalable 🚀.
 ```sh
 $ npm run prod
