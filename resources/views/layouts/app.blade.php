@@ -60,7 +60,7 @@
             </div>
             <h2 class="text-4xl font-semibold text-center mb-6">About Me</h2>
             <p class="text-xl leading-relaxed">
-                I am a software engineer from Japan and currently based in Singapore. Especially for these five years, I've been creating e-commerce web applications using Laravel, Angular and Vue.js. Making a clean, maintainable and scalable software is one of my biggest passions. Im my spare time, I play the bass or enjoy DIY.
+                I am a software engineer from Japan and currently based in Singapore. Over the past 5 years, I've been creating e-commerce and FinTech web applications using Laravel, Angular, and Vue.js. Making clean, maintainable, and scalable software with agile methodology is one of my biggest passions. Im my spare time, I play the bass and enjoy DIY.
             </p>
         </div>
         <footer class="flex flex-col items-center justify-between text-gray-500 px-4 py-4 border-t border-gray-300 md:flex-row md:px-32">
