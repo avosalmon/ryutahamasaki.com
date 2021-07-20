@@ -1,8 +1,8 @@
 # The source code of ryutahamasaki.com
-~~This repo contains the source code of my Laravel powered blog at ryutahamasaki.com.
+~~This repo contains the source code of my Laravel powered blog at [ryutahamasaki.com](https://ryutahamasaki.com).
 It's exported as a static site and deployed to Netlify.~~
 
-ryutahamasaki.com has been migrated to a JAMstack Nuxt.js app and hosted on Netlify. You can find the source code at https://github.com/avosalmon/blog-nuxt.
+[ryutahamasaki.com](https://ryutahamasaki.com) has been migrated to a JAMstack Nuxt.js app and hosted on Netlify. You can find the source code at https://github.com/avosalmon/blog-nuxt.
 
 ## Setup local environment
 Install dependencies.
